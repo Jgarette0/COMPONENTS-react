@@ -1,11 +1,6 @@
-* {
-  font-family: monospace;
-  font-size: x-large;
-}
-
 .hello {
   font-weight: 800;
   padding: 15px;
-  border: 1px solid royalblue;
+  border: 1px solid #232329;
   border-radius: 6px;
 }

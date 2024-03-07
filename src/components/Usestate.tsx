@@ -6,9 +6,10 @@ export function UseState() {
 
   return (
     <>
-      <div className="hello">Count is: {count} </div>
-
-      <Button onClick={() => setCount(count + 1)}>Count</Button>
+      <div>
+        <div className="hello">Count is: {count} </div>
+        <Button onClick={() => setCount(count + 1)}>Count</Button>
+      </div>
     </>
   );
 }

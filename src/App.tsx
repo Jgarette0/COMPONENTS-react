@@ -1,16 +1,12 @@
 import { ThemeProvider } from "@/components/ui/theme-provider";
-import { UseState } from "./components/Usestate";
-import CarouselDemo from "./components/Carousel";
-import { ModeToggle } from "./components/ModeToggle";
+import Rendering from "./components/Render";
 
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-row place-items-start gap-12">
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-          <ModeToggle />
-          <UseState />
-          <CarouselDemo />
+          <Rendering />
         </ThemeProvider>
       </div>
     </>

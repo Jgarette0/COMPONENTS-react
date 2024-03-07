@@ -7,8 +7,9 @@ export function UseState() {
   return (
     <>
       <div>
-        <div className="hello">Count is: {count} </div>
-        <Button onClick={() => setCount(count + 1)}>Count</Button>
+        <Button variant="outline" onClick={() => setCount(count + 1)}>
+          Count : {count}
+        </Button>
       </div>
     </>
   );

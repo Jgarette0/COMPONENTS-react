@@ -1,19 +1,11 @@
-button {
-  background-color: #232329;
-  color: #f0f0f0;
-  border-radius: 10px;
-  padding: 8px 15px;
-  border: 1px solid #f0f0f0;
+* {
+  font-family: monospace;
+  font-size: x-large;
 }
 
-button:hover {
+.hello {
+  font-weight: 800;
+  padding: 15px;
   border: 1px solid royalblue;
-}
-
-.all {
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 6px;
 }

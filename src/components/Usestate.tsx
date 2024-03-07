@@ -1,13 +1,14 @@
 import { useState } from "react";
+import { Button } from "./ui/button";
 
-function UseState() {
+export function UseState() {
   const [count, setCount] = useState(0);
+
   return (
     <>
-      <div>
-        <button onClick={() => setCount(count + 1)}>Count : {count}</button>
-      </div>
+      <div className="hello">Count is: {count} </div>
+
+      <Button onClick={() => setCount(count + 1)}>Count</Button>
     </>
   );
 }
-export default UseState;

@@ -9,6 +9,9 @@ import { UseState } from "./Usestate";
 import CarouselDemo from "./Carousel";
 import { AvatarProfile } from "./Image";
 import CardWithForm from "./Form";
+import LoginForm from "./Login";
+import FooterSection from "./Footer";
+import SliderComponent from "./Slider";
 
 export function Rendering() {
   return (
@@ -23,13 +26,18 @@ export function Rendering() {
           <DrawerDemo />
           <CheckToday />
         </Card>
-        <div className="flex flex-row flex-wrap">
+        <div className="flex flex-row flex-wrap mt-5">
           <CarouselDemo />
           <AvatarProfile />
+          <SliderComponent />
         </div>
-        <Card className="flex flex-row">
+        <div className="flex flex-row m-5">
           <CardWithForm />
-        </Card>
+          <LoginForm />
+        </div>
+        <div>
+          <FooterSection />
+        </div>
       </Card>
     </>
   );

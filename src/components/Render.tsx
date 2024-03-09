@@ -12,6 +12,9 @@ import CardWithForm from "./Form";
 import LoginForm from "./Login";
 import FooterSection from "./Footer";
 import SliderComponent from "./Slider";
+import MessageComponent from "./Message";
+import AccordionComponent from "./Accordion";
+import { AlertDialogDemo } from "./Alert";
 
 export function Rendering() {
   return (
@@ -26,14 +29,17 @@ export function Rendering() {
           <DrawerDemo />
           <CheckToday />
         </Card>
-        <div className="flex flex-row flex-wrap mt-5">
+        <div className="flex flex-row flex-wrap justify-center place-items-center mt-5">
           <CarouselDemo />
           <AvatarProfile />
           <SliderComponent />
+          <AlertDialogDemo />
         </div>
-        <div className="flex flex-row m-5">
+        <div className="flex flex-row m-5 flex-wrap">
           <CardWithForm />
           <LoginForm />
+          <MessageComponent />
+          <AccordionComponent />
         </div>
         <div>
           <FooterSection />

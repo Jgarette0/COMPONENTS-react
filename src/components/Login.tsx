@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 
 export default function LoginForm() {
   return (
-    <Card className="ml-2">
+    <Card className="mx-3">
       <CardHeader>
         <CardTitle className="text-2xl">Login</CardTitle>
         <CardDescription>

@@ -21,7 +21,7 @@ import {
 
 export function CardWithForm() {
   return (
-    <Card className="w-[350px] mx-5">
+    <Card className="w-[280npxpx]">
       <CardHeader>
         <CardTitle>Create project</CardTitle>
         <CardDescription>Deploy your new project in one-click.</CardDescription>

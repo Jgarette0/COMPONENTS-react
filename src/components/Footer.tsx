@@ -11,7 +11,7 @@ import { Home, ArrowBigDown, Pin, Bird, Divide } from "lucide-react";
 export default function FooterSection() {
   return (
     <div className="bg-dark">
-      <div className="max-w-[966px] mx-auto py-8 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1100px] mx-auto py-8 px-4 sm:px-6 lg:px-5">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h5 className="font-bold mb-3">Build & Find</h5>

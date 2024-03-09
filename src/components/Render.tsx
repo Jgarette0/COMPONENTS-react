@@ -19,8 +19,8 @@ import { AlertDialogDemo } from "./Alert";
 export function Rendering() {
   return (
     <>
-      <Card className="flex flex-col w-full">
-        <Card className="flex flex-row sm:flex-row-reverse place-items-center h-28 sm:h-16 w-full gap-2 p-2 flex-wrap sticky top-0 rounded-none z-40">
+      <Card className="flex flex-col w-full border-none">
+        <Card className="flex flex-row sm:flex-row-reverse place-items-center h-28 sm:h-16 w-full gap-2 p-2 flex-wrap sticky top-0 rounded-none z-40 border-none">
           <ModeToggle />
           <UseState />
           <DialogTest />
@@ -29,13 +29,13 @@ export function Rendering() {
           <DrawerDemo />
           <CheckToday />
         </Card>
-        <div className="flex flex-row flex-wrap justify-center place-items-center mt-5">
+        <div className="flex flex-row flex-wrap justify-center place-items-center my-5">
           <CarouselDemo />
           <AvatarProfile />
           <SliderComponent />
           <AlertDialogDemo />
         </div>
-        <div className="flex flex-row m-5 flex-wrap">
+        <div className="flex flex-row m-5 flex-wrap justify-between">
           <CardWithForm />
           <LoginForm />
           <MessageComponent />

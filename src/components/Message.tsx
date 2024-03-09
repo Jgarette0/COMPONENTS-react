@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { CircleUser } from "lucide-react";
 export default function MessageComponent() {
   return (
-    <div className="flex flex-col w-[320px] rounded-lg border">
+    <div className="flex flex-col w-[320px] mt-5 rounded-lg border">
       <div className="flex-1 overflow-auto flex flex-col gap-2 p-4">
         <div className="flex items-center space-x-4">
           <CircleUser size={20} />
